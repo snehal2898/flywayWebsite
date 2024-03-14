@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Launch React Project</title>
+</head>
+<body>
+  <button id="launchButton">Launch React Project</button>
+
+  <script>
+    function launchReactProject() {
+      var reactProjectUrl = 'https://github.com/snehal2898/flywayWebsite.git'; 
+      window.open(reactProjectUrl, '_blank');
+    }
+
+    document.getElementById('launchButton').addEventListener('click', launchReactProject);
+  </script>
+</body>
+</html>
